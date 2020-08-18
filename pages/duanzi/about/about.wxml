@@ -1,0 +1,4 @@
+<import src="../common/common.wxml"/>
+<view class="demo" bindtap="onUnload">回到首页 </view>
+ <image class="img" src="../../images/xcxm.jpg"></image>
+ <image class="img" src="../../images/ewm.jpg"></image>

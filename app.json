@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/duanzi/joke/joke",
+    "pages/duanzi/picture/picture",
+    "pages/weather/weather",
+    "pages/chat/chat",
+    "pages/duanzi/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "印象小斤",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/duanzi/joke/joke",
+        "text": "段子",
+        "iconPath": "pages/images/joke/ic_joke_gray.png",
+        "selectedIconPath": "pages/images/joke/ic_joke_blue.png"
+      },
+      {
+        "pagePath": "pages/duanzi/picture/picture",
+        "text": "趣图",
+        "iconPath": "pages/images/joke/ic_gif_gray.png",
+        "selectedIconPath": "pages/images/joke/ic_gif_blue.png"
+      },
+      {
+        "pagePath": "pages/duanzi/about/about",
+        "text": "小斤",
+        "iconPath": "pages/images/iconxj.png",
+        "selectedIconPath": "pages/images/iconxj.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "定位以获取当前位置天气信息"
+    }
+  },
+  "cloud": true,
+  "sitemapLocation": "sitemap.json"
+}

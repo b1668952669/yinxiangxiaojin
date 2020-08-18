@@ -1,0 +1,38 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 20rpx;
+  border-radius: 40%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.user-motto {
+  display:block;
+  margin-top: 60px;
+  text-align: center;
+  color: rgb(175, 175, 175);
+  font-family:"STXihei";
+}
+
+.demo{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow:0 0 6px 1px #eee;
+  padding:10px 20px;
+  color:#666;
+  border-radius:5px;
+  font-size: 14px;
+  font-family:"STXihei";
+}
